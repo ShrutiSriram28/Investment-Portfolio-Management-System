@@ -1,0 +1,405 @@
+<web-app>
+<!--*********************************************************INVESTOR**********************************************************-->
+<servlet>
+   <servlet-name>InvestorSignUp</servlet-name>
+   <servlet-class>InvestorSignUp</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InvestorSignUp</servlet-name>
+   <url-pattern>/InvestorSignUp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InvestmentManagerSignUp</servlet-name>
+   <servlet-class>InvestmentManagerSignUp</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InvestmentManagerSignUp</servlet-name>
+   <url-pattern>/InvestmentManagerSignUp</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InvestorLoginValidate</servlet-name>
+   <servlet-class>InvestorLoginValidate</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InvestorLoginValidate</servlet-name>
+   <url-pattern>/InvestorLoginValidate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InvestmentManagerLoginValidate</servlet-name>
+   <servlet-class>InvestmentManagerLoginValidate</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InvestmentManagerLoginValidate</servlet-name>
+   <url-pattern>/InvestmentManagerLoginValidate</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>GetStockPrice</servlet-name>
+   <servlet-class>GetStockPrice</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>GetStockPrice</servlet-name>
+   <url-pattern>/GetStockPrice</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>GetStockScheme</servlet-name>
+   <servlet-class>GetStockScheme</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>GetStockScheme</servlet-name>
+   <url-pattern>/GetStockScheme</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AddStocks</servlet-name>
+   <servlet-class>AddStocks</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddStocks</servlet-name>
+   <url-pattern>/AddStocks</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InsertStocks</servlet-name>
+   <servlet-class>InsertStocks</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InsertStocks</servlet-name>
+   <url-pattern>/InsertStocks</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>GetMFNAV</servlet-name>
+   <servlet-class>GetMFNAV</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>GetMFNAV</servlet-name>
+   <url-pattern>/GetMFNAV</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>GetMFScheme</servlet-name>
+   <servlet-class>GetMFScheme</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>GetMFScheme</servlet-name>
+   <url-pattern>/GetMFScheme</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AddMF</servlet-name>
+   <servlet-class>AddMF</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddMF</servlet-name>
+   <url-pattern>/AddMF</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InsertMF</servlet-name>
+   <servlet-class>InsertMF</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InsertMF</servlet-name>
+   <url-pattern>/InsertMF</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>GetBullionPrice</servlet-name>
+   <servlet-class>GetBullionPrice</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>GetBullionPrice</servlet-name>
+   <url-pattern>/GetBullionPrice</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>GetBullionScheme</servlet-name>
+   <servlet-class>GetBullionScheme</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>GetBullionScheme</servlet-name>
+   <url-pattern>/GetBullionScheme</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AddBullion</servlet-name>
+   <servlet-class>AddBullion</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddBullion</servlet-name>
+   <url-pattern>/AddBullion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InsertBullion</servlet-name>
+   <servlet-class>InsertBullion</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InsertBullion</servlet-name>
+   <url-pattern>/InsertBullion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>CancelRedirectUsername</servlet-name>
+   <servlet-class>CancelRedirectUsername</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>CancelRedirectUsername</servlet-name>
+   <url-pattern>/CancelRedirectUsername</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>ViewStocks</servlet-name>
+   <servlet-class>ViewStocks</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewStocks</servlet-name>
+   <url-pattern>/ViewStocks</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>SellStock</servlet-name>
+   <servlet-class>SellStock</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SellStock</servlet-name>
+   <url-pattern>/SellStock</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>ViewMF</servlet-name>
+   <servlet-class>ViewMF</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewMF</servlet-name>
+   <url-pattern>/ViewMF</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>SellMF</servlet-name>
+   <servlet-class>SellMF</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SellMF</servlet-name>
+   <url-pattern>/SellMF</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>ViewBullion</servlet-name>
+   <servlet-class>ViewBullion</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewBullion</servlet-name>
+   <url-pattern>/ViewBullion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>SellBullion</servlet-name>
+   <servlet-class>SellBullion</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SellBullion</servlet-name>
+   <url-pattern>/SellBullion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>DeleteStock</servlet-name>
+   <servlet-class>DeleteStock</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DeleteStock</servlet-name>
+   <url-pattern>/DeleteStock</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>DeleteMF</servlet-name>
+   <servlet-class>DeleteMF</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DeleteMF</servlet-name>
+   <url-pattern>/DeleteMF</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>DeleteBullion</servlet-name>
+   <servlet-class>DeleteBullion</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>DeleteBullion</servlet-name>
+   <url-pattern>/DeleteBullion</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>Chat</servlet-name>
+   <servlet-class>Chat</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Chat</servlet-name>
+   <url-pattern>/Chat</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>Logout</servlet-name>
+   <servlet-class>Logout</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>Logout</servlet-name>
+   <url-pattern>/Logout</url-pattern>
+</servlet-mapping>
+
+<!--***************************************************************************************************************************-->
+
+
+<!--*********************************************************INVESTMENT MANAGER************************************************-->
+
+<servlet>
+   <servlet-name>LogoutManager</servlet-name>
+   <servlet-class>LogoutManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>LogoutManager</servlet-name>
+   <url-pattern>/LogoutManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>CancelRedirectUsernameManager</servlet-name>
+   <servlet-class>CancelRedirectUsernameManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>CancelRedirectUsernameManager</servlet-name>
+   <url-pattern>/CancelRedirectUsernameManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>ViewGroup</servlet-name>
+   <servlet-class>ViewGroup</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewGroup</servlet-name>
+   <url-pattern>/ViewGroup</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AddMember</servlet-name>
+   <servlet-class>AddMember</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddMember</servlet-name>
+   <url-pattern>/AddMember</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InsertMember</servlet-name>
+   <servlet-class>InsertMember</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InsertMember</servlet-name>
+   <url-pattern>/InsertMember</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>GetMember</servlet-name>
+   <servlet-class>GetMember</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>GetMember</servlet-name>
+   <url-pattern>/GetMember</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>ViewAssets</servlet-name>
+   <servlet-class>ViewAssets</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>ViewAssets</servlet-name>
+   <url-pattern>/ViewAssets</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AddStocksManager</servlet-name>
+   <servlet-class>AddStocksManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddStocksManager</servlet-name>
+   <url-pattern>/AddStocksManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AddMFManager</servlet-name>
+   <servlet-class>AddMFManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddMFManager</servlet-name>
+   <url-pattern>/AddMFManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>AddBullionManager</servlet-name>
+   <servlet-class>AddBullionManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>AddBullionManager</servlet-name>
+   <url-pattern>/AddBullionManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>SellStockManager</servlet-name>
+   <servlet-class>SellStockManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SellStockManager</servlet-name>
+   <url-pattern>/SellStockManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>SellMFManager</servlet-name>
+   <servlet-class>SellMFManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SellMFManager</servlet-name>
+   <url-pattern>/SellMFManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>SellBullionManager</servlet-name>
+   <servlet-class>SellBullionManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>SellBullionManager</servlet-name>
+   <url-pattern>/SellBullionManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InsertStocksManager</servlet-name>
+   <servlet-class>InsertStocksManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InsertStocksManager</servlet-name>
+   <url-pattern>/InsertStocksManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InsertMFManager</servlet-name>
+   <servlet-class>InsertMFManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InsertMFManager</servlet-name>
+   <url-pattern>/InsertMFManager</url-pattern>
+</servlet-mapping>
+
+<servlet>
+   <servlet-name>InsertBullionManager</servlet-name>
+   <servlet-class>InsertBullionManager</servlet-class>
+</servlet>
+<servlet-mapping>
+   <servlet-name>InsertBullionManager</servlet-name>
+   <url-pattern>/InsertBullionManager</url-pattern>
+</servlet-mapping>
+
+<!--***************************************************************************************************************************-->
+</web-app>
