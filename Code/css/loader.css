@@ -1,0 +1,24 @@
+div {
+  /* Finally, a use for "groove"! */
+  border: 5px groove #191e29;
+
+  display: table-cell;
+  border-radius: 999px;
+  animation: spin 15s linear infinite;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg) }
+  to { transform: rotate(360deg) }
+}
+
+
+html, body { height: 100% }
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background: white;
+}
